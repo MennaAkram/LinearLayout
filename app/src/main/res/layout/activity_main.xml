@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/CardMargin"
+        android:padding="@dimen/CardPadding"
+        android:orientation="horizontal"
+        android:background="@color/Background">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/imageWidth"
+            android:layout_height="@dimen/imageHeight"
+            app:srcCompat="@drawable/daniel" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/informationMargin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dm_sans_bold"
+                android:text="Ahmed Hassan"
+                android:textColor="@color/black"
+                android:textSize="@dimen/AhmedHassenTextSize" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engineer"
+                android:layout_marginTop="@dimen/engineerMarginTop"
+                android:textColor="@color/EngineerTextColor"
+                android:textSize="@dimen/EngineerTextSize"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/MarginTop"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/LocationWidth"
+                    android:layout_height="@dimen/LocationHeight"
+                    android:layout_marginTop="@dimen/iconLocationMarginTop"
+                    app:srcCompat="@drawable/icon"/>
+
+                <TextView
+                    android:layout_width="@dimen/UKWidth"
+                    android:layout_height="@dimen/UKHeight"
+                    android:layout_marginLeft="@dimen/UKLeftMargin"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="UK"
+                    android:textColor="#99263238"
+                    android:textSize="@dimen/UKTextSize" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/MarginTop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="(150 Reviews)"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ReviewsTextSize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ReviewsNumMarginLeft"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="4.5"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ReviewsNumTextSize" />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/star_4"/>
+            </LinearLayout>
+            
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right">
+
+            <TextView
+                android:layout_width="@dimen/TimeWidth"
+                android:layout_height="@dimen/TimeHeight"
+                android:background="@drawable/rounded"
+                android:fontFamily="@font/dm_sans"
+                android:gravity="center"
+                android:text="3 hr"
+                android:textColor="@color/white"
+                android:textSize="@dimen/TimeTextSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/MarginTop"
+                android:fontFamily="@font/dm_sans"
+                android:text="Russian"
+                android:textColor="@color/RussianTextColor"
+                android:textSize="@dimen/RussianTextSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/DaysMarginTop"
+                android:fontFamily="@font/dm_sans"
+                android:text="5 Days ago"
+                android:textColor="@color/DaysTextColor"
+                android:textSize="@dimen/DaysTextSize" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

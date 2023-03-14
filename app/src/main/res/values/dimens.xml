@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imageWidth">93dp</dimen>
+    <dimen name="imageHeight">93dp</dimen>
+    <dimen name="informationMargin">12dp</dimen>
+    <dimen name="AhmedHassenTextSize">16dp</dimen>
+    <dimen name="engineerMarginTop">8dp</dimen>
+    <dimen name="EngineerTextSize">12dp</dimen>
+    <dimen name="MarginTop">8dp</dimen>
+    <dimen name="LocationWidth">10dp</dimen>
+    <dimen name="LocationHeight">12dp</dimen>
+    <dimen name="iconLocationMarginTop">3dp</dimen>
+    <dimen name="UKWidth">17dp</dimen>
+    <dimen name="UKHeight">17dp</dimen>
+    <dimen name="UKLeftMargin">4dp</dimen>
+    <dimen name="UKTextSize">13dp</dimen>
+    <dimen name="ReviewsTextSize">13dp</dimen>
+    <dimen name="ReviewsNumMarginLeft">8dp</dimen>
+    <dimen name="ReviewsNumTextSize">13dp</dimen>
+    <dimen name="TimeWidth">38dp</dimen>
+    <dimen name="TimeHeight">20dp</dimen>
+    <dimen name="TimeTextSize">12dp</dimen>
+    <dimen name="RussianTextSize">12dp</dimen>
+    <dimen name="DaysMarginTop">9dp</dimen>
+    <dimen name="DaysTextSize">12dp</dimen>
+    <dimen name="CardMargin">16dp</dimen>
+    <dimen name="CardPadding">12dp</dimen>
+</resources>
